@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsConsole", "fruits\FruitsConsole.csproj", "{67526283-C7AE-45D9-96BC-DD8D58F827EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BananaCore", "banana\BananaCore.csproj", "{A8728936-BBA1-4853-90FF-27EB0F1F1CB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BananaCore", "banana\BananaCore.csproj", "{A8728936-BBA1-4853-90FF-27EB0F1F1CB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppleCore", "applecore\AppleCore.csproj", "{964D97E1-9CF2-473F-9EEB-B389B5553D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleCore", "applecore\AppleCore.csproj", "{964D97E1-9CF2-473F-9EEB-B389B5553D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerCore", "LoggerCore\LoggerCore.csproj", "{C50F7D92-0965-41AD-803A-DB729A392B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitsAPI", "FruitsAPI\FruitsAPI.csproj", "{13F6E438-E346-4F4F-BB4A-DFE635E57561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67526283-C7AE-45D9-96BC-DD8D58F827EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67526283-C7AE-45D9-96BC-DD8D58F827EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67526283-C7AE-45D9-96BC-DD8D58F827EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67526283-C7AE-45D9-96BC-DD8D58F827EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A8728936-BBA1-4853-90FF-27EB0F1F1CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A8728936-BBA1-4853-90FF-27EB0F1F1CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8728936-BBA1-4853-90FF-27EB0F1F1CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +25,14 @@ Global
 		{964D97E1-9CF2-473F-9EEB-B389B5553D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{964D97E1-9CF2-473F-9EEB-B389B5553D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{964D97E1-9CF2-473F-9EEB-B389B5553D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50F7D92-0965-41AD-803A-DB729A392B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50F7D92-0965-41AD-803A-DB729A392B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50F7D92-0965-41AD-803A-DB729A392B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50F7D92-0965-41AD-803A-DB729A392B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F6E438-E346-4F4F-BB4A-DFE635E57561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F6E438-E346-4F4F-BB4A-DFE635E57561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F6E438-E346-4F4F-BB4A-DFE635E57561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F6E438-E346-4F4F-BB4A-DFE635E57561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
