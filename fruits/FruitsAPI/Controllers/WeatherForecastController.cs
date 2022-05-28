@@ -1,3 +1,4 @@
+using applecore;
 using LoggerCore.Extensions;
 using LoggerCore.Logging;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +34,8 @@ namespace FruitsAPI.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
 
-
+            Apple appleTest = new Apple();
+            appleTest.printApple("it's a test");
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
